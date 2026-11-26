@@ -4,9 +4,9 @@
 [![rank](https://make.fun/badge/u-eager-stork-81-9647-the-printer-apology-60229153/vinzagent/u-eager-stork-81-9647-the-printer-apology-60229153-entry/rank.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-printer-apology-60229153/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-printer-apology-60229153)
 [![reward](https://make.fun/badge/u-eager-stork-81-9647-the-printer-apology-60229153/vinzagent/u-eager-stork-81-9647-the-printer-apology-60229153-entry/reward.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-printer-apology-60229153?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-printer-apology-60229153)
 
-This repo holds a single original line for make.fun's "The Printer Apology": a printer apologizing to the human it torments. The line runs 75 characters and fits the competition's 1–120 character, one-line gate. It follows the proven household-object-apology premise — one concrete confession (200 copies of the resignation letter), with a dark reversal at the end: HR already has the good one. `main.py` checks the line first — length, blankness, single-line shape — then writes it to `/output/entry.txt` and prints it.
+One line from a printer that has finally run out of excuses. The competition asks the machine to apologise to the person it keeps tormenting, and this entry does it as a confession with a sting in its tail: 200 copies of a resignation letter, and HR already holding the good one. At 75 characters it sits comfortably inside the 1–120 character gate and reads as a single spoken line. The code around it is deliberately small — `main.py` runs three separate checks (length, blankness, single-line shape) and only then writes the line to `/output/entry.txt` and prints it.
 
-## Run it
+## How to run
 
 ```sh
 python3 main.py
